@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Allen's AI Quality Lab</title>
+<desc id="desc">A dark technical dashboard banner with an AI evaluation signal trace and a test status panel.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#08131f"/>
+    <stop offset="1" stop-color="#101d2a"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#16d6c2"/>
+    <stop offset="1" stop-color="#76f2b2"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#254051" stroke-width="1" opacity=".48"/>
+  </pattern>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="22" fill="url(#grid)" opacity=".65"/>
+<rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#294453" stroke-width="2"/>
+<circle cx="62" cy="48" r="6" fill="#ff6b6b"/><circle cx="84" cy="48" r="6" fill="#ffcb6b"/><circle cx="106" cy="48" r="6" fill="#64e6ba"/>
+<text x="140" y="54" fill="#8ca6b6" font-family="Consolas,monospace" font-size="15" letter-spacing="2">PERSONAL PORTFOLIO / BUILD 001</text>
+<text x="64" y="137" fill="#e7f1f5" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700">ALLEN'S AI QUALITY LAB</text>
+<text x="66" y="177" fill="#9ab0bd" font-family="Consolas,monospace" font-size="18">LLM EVALUATION  //  QUALITY ANALYSIS  //  HUMAN REVIEW</text>
+<path d="M66 226H120M120 226l18-28 22 54 24-82 23 56 20-28 19 28 18-14 18 14h48" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<circle cx="330" cy="226" r="5" fill="#76f2b2" filter="url(#glow)"/>
+<text x="66" y="266" fill="#4cdcc5" font-family="Consolas,monospace" font-size="14">EVIDENCE FIRST · TEST · COMPARE · EXPLAIN</text>
+<rect x="822" y="86" width="318" height="158" rx="12" fill="#0b1722" stroke="#2b4858" stroke-width="2"/>
+<text x="846" y="116" fill="#70e6cf" font-family="Consolas,monospace" font-size="14">EVAL RUN / PORTFOLIO PILOT</text>
+<text x="846" y="153" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">CASES</text>
+<text x="1080" y="153" fill="#e7f1f5" text-anchor="end" font-family="Consolas,monospace" font-size="18" font-weight="700">25</text>
+<path d="M846 165H1116" stroke="#233b49"/>
+<text x="846" y="192" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">RESPONSES</text>
+<text x="1080" y="192" fill="#e7f1f5" text-anchor="end" font-family="Consolas,monospace" font-size="18" font-weight="700">50</text>
+<path d="M846 204H1116" stroke="#233b49"/>
+<text x="846" y="231" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">MODE</text>
+<text x="1080" y="231" fill="#ffcb6b" text-anchor="end" font-family="Consolas,monospace" font-size="14">HUMAN-RATED</text>
+</svg>
