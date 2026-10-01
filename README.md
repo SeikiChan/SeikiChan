@@ -8,9 +8,9 @@
       <h2>Hi, I'm Allen</h2>
       <p>I'm building hands-on experience in <strong>AI response evaluation and quality analysis</strong>. My work focuses on structured tests, clear rubrics, evidence-based judgments, and human review.</p>
       <p><strong>Focus</strong><br>AI Quality · LLM Evaluation · AI Operations</p>
-      <p><strong>Also interested in</strong><br>Game QA · Development QA</p>
+      <p><strong>Also interested in</strong><br>Game QA · Simplified Chinese LQA</p>
       <p><strong>Languages</strong><br>Native Mandarin and Cantonese · English for day-to-day professional communication</p>
-      <p><a href="https://www.linkedin.com/in/yilun-huang-7a45a32bb">LinkedIn</a> · <a href="https://github.com/SeikiChan/ai-evaluation-case-study">Evaluation Case Study</a> · <a href="https://github.com/SeikiChan/ai-news-radar">AI News Radar</a></p>
+      <p><a href="https://www.linkedin.com/in/yilun-huang-7a45a32bb">LinkedIn</a> · <a href="https://github.com/SeikiChan/ai-evaluation-case-study">Evaluation Case Study</a> · <a href="https://github.com/SeikiChan/ai-news-radar">AI News Radar</a> · <a href="https://github.com/SeikiChan/DebtRunner/blob/main/docs/game-qa-lqa-portfolio-sample.md">Game QA / LQA Sample</a></p>
     </td>
     <td width="42%" valign="top">
       <h2>Evaluation Snapshot</h2>
@@ -41,7 +41,8 @@ An AI-assisted research workflow that surfaces source evidence and uncertainty f
 
 ### [Debt Runner](https://github.com/SeikiChan/DebtRunner)
 
-A four-person Unity project selected for the Academy of Art University Spring Show 2026. I coordinated production and ran iterative QA across gameplay, tutorial flow, UI, and pacing.
+A four-person Unity project selected for the Academy of Art University Spring Show 2026. I coordinated production and ran iterative QA across gameplay, tutorial flow, UI, and pacing.  
+[Read the Game QA / Simplified Chinese LQA sample →](https://github.com/SeikiChan/DebtRunner/blob/main/docs/game-qa-lqa-portfolio-sample.md)
 
 ## Evaluation Workflow
 
