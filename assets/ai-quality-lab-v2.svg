@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Allen's AI Quality Lab</title>
+<desc id="desc">A clean, dark technical portfolio banner with a separated evaluation signal trace and aligned pilot metrics.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#08131f"/>
+    <stop offset="1" stop-color="#101d2a"/>
+  </linearGradient>
+  <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#16d6c2"/>
+    <stop offset="1" stop-color="#76f2b2"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#254051" stroke-width="1" opacity=".38"/>
+  </pattern>
+  <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="22" fill="url(#grid)" opacity=".7"/>
+<rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#294453" stroke-width="2"/>
+
+<!-- Terminal header -->
+<circle cx="62" cy="48" r="6" fill="#ff6b6b"/>
+<circle cx="84" cy="48" r="6" fill="#ffcb6b"/>
+<circle cx="106" cy="48" r="6" fill="#64e6ba"/>
+<text x="140" y="54" fill="#8ca6b6" font-family="Consolas,monospace" font-size="15" letter-spacing="2">PERSONAL PORTFOLIO / BUILD 001</text>
+<text x="1138" y="54" text-anchor="end" fill="#70e6cf" font-family="Consolas,monospace" font-size="13" letter-spacing="1">STATUS: HUMAN REVIEW</text>
+
+<!-- Main title block -->
+<text x="64" y="130" fill="#e7f1f5" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700" letter-spacing=".2">ALLEN'S AI QUALITY LAB</text>
+<text x="66" y="169" fill="#a6bac5" font-family="Consolas,monospace" font-size="17" letter-spacing=".4">LLM EVALUATION  /  QUALITY ANALYSIS  /  HUMAN REVIEW</text>
+
+<!-- Dedicated signal strip: clear vertical separation from all text -->
+<rect x="64" y="202" width="692" height="74" rx="10" fill="#0a1722" stroke="#203a49" stroke-width="1.5"/>
+<text x="82" y="226" fill="#70e6cf" font-family="Consolas,monospace" font-size="12" letter-spacing="1">EVALUATION SIGNAL / CASE SET A</text>
+<path d="M82 251H147L164 238L181 262L199 231L217 256L235 242L253 256L271 247L289 256H355" fill="none" stroke="url(#signal)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+<circle cx="355" cy="256" r="4" fill="#76f2b2"/>
+<path d="M385 239V263M402 239V263M419 239V263" stroke="#294453" stroke-width="1"/>
+<text x="443" y="253" fill="#c5d5dc" font-family="Consolas,monospace" font-size="13" letter-spacing=".4">EVIDENCE</text>
+<text x="517" y="253" fill="#607987" font-family="Consolas,monospace" font-size="13">→</text>
+<text x="538" y="253" fill="#c5d5dc" font-family="Consolas,monospace" font-size="13" letter-spacing=".4">COMPARE</text>
+<text x="623" y="253" fill="#607987" font-family="Consolas,monospace" font-size="13">→</text>
+<text x="644" y="253" fill="#c5d5dc" font-family="Consolas,monospace" font-size="13" letter-spacing=".4">EXPLAIN</text>
+
+<!-- Aligned evaluation metrics panel -->
+<rect x="822" y="82" width="318" height="194" rx="12" fill="#0b1722" stroke="#2b4858" stroke-width="2"/>
+<text x="846" y="113" fill="#70e6cf" font-family="Consolas,monospace" font-size="14" letter-spacing=".5">EVAL RUN / PORTFOLIO PILOT</text>
+<path d="M846 128H1116" stroke="#233b49" stroke-width="1"/>
+<text x="846" y="158" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">CASES</text>
+<text x="1116" y="158" text-anchor="end" fill="#e7f1f5" font-family="Consolas,monospace" font-size="18" font-weight="700">25</text>
+<path d="M846 172H1116" stroke="#233b49" stroke-width="1"/>
+<text x="846" y="199" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">RESPONSES</text>
+<text x="1116" y="199" text-anchor="end" fill="#e7f1f5" font-family="Consolas,monospace" font-size="18" font-weight="700">50</text>
+<path d="M846 213H1116" stroke="#233b49" stroke-width="1"/>
+<text x="846" y="241" fill="#91a8b7" font-family="Consolas,monospace" font-size="14">MODE</text>
+<text x="1116" y="241" text-anchor="end" fill="#ffcb6b" font-family="Consolas,monospace" font-size="14" font-weight="700">HUMAN-RATED</text>
+</svg>
